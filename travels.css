@@ -1,0 +1,125 @@
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color:gold;
+    margin: 2px 0;
+    transition: 0.4s;
+}
+
+.menu {
+    display: flex;
+    color: gold;
+}
+
+.bar{
+    height: 2px;
+}
+
+body h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    font-size: larger;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#header {
+    background-color: #000000;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.menu.active {
+    display: flex;
+    
+}
+#header a {
+    font-family: 'Times New Roman', Times, serif;
+    color:goldenrod;
+    text-decoration: aquamarine;
+    margin-right: 20px;
+}
+hr{
+   border-color: gold;
+}
+
+h1,h2 {
+   color: gold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+h3{
+    color: gold;
+}
+
+footer {
+    background-color:rgb(7, 7, 5);
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 150px;
+        padding: 10px;
+        color: gold;
+    }
+
+    .menu a {
+        color:gold;
+        text-decoration: none;
+        margin: 5px 0;
+        
+    }
+
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
