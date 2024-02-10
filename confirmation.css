@@ -29,8 +29,17 @@ nav a {
     padding: 2em;
 }
 
-h2, h3 {
-    color: #333;
+.order-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 footer {

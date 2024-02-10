@@ -1,0 +1,265 @@
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.login-section {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-section label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.login-section input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color: #2980b9;
+}
+
+.login-section p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.login-section a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-section a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color:gold;
+    margin: 2px 0;
+    transition: 0.4s;
+}
+
+.menu {
+    display: flex;
+    color: gold;
+}
+body h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+}
+
+
+.bar{
+    height: 2px;
+}
+.logo {
+    max-width: 100px; 
+}
+
+menu.active {
+    display: flex;
+    
+}
+#header a {
+    font-family: 'Times New Roman', Times, serif;
+    color:goldenrod;
+    text-decoration: aquamarine;
+    margin-right: 20px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.main-content {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    width: 45%;
+}
+
+.product img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.product h3 {
+    margin-bottom: 0.5em;
+}
+
+.discounted-price {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 150px;
+        padding: 10px;
+        color: gold;
+    }
+    nav.show-menu {
+    display: flex;
+    } 
+
+    .menu a {
+        color:gold;
+        text-decoration: none;
+        margin: 5px 0;
+        
+    }
+
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+    

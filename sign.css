@@ -1,0 +1,61 @@
+/* Sign Up Page Styles */
+.main-content {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    text-align: center;
+    color: #333;
+}
+
+.main-content label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.main-content input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+.main-content button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content button:hover {
+    background-color: #2980b9;
+}
+
+.main-content p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.main-content a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+}

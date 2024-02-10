@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eCO-Bags</title>
+    <link rel="stylesheet" href="home.css">
+    
+</head>
+
+    
+    
+    <div id="header">
+      
+        <img src="logo.png" alt="eCO-Bags" class="logo">
+        
+        <h1>Welcome to eCO-Bags</h1>
+    </div>
+
+    
+    <p>Discover our eco-friendly and reusable carrier bags designed to make a positive impact on the environment.</p>
+    <img src="" alt=""><img src="" alt=""><img src="" alt="">
+    <section class="login-section">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" id="loginButton">Login</button>
+
+            <p>Don't have an account? <a href="sign up.html">Sign up here</a>.</p>
+        </form>
+    </section>
+        
+    <section class="preview-text">
+        <p>Take a look at some of our bags that with suit your pocket....</p>
+    </section>
+
+
+    <div class="featured-products">
+        <div class="product">
+            <img src="reusable.jpg" alt="Product 1">
+            <h3>Reusable Grocery Bag</h3>
+            <p class="discounted-price">Ksh.200</p>
+        </div>
+
+        <div class="product">
+            <img src="foldable.jpg" alt="Product 2">
+            <h3>Foldable Shopping Tote</h3>
+            <p class="discounted-price">Ksh.150</p>
+        </div>
+       
+    </div>
+
+   
+
+
+
+</section>
+<hr>
+
+
+<footer>
+   <p>Email us:egobags@gmail.com</p>
+    <p>Contact Us:0727272928 </p>
+    <p>&copy;  eCO-Bags . All rights reserved.</p>
+</footer>
+<script>
+    document.getElementById("menuToggle").addEventListener("click", function () {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+    });
+    function toggleMenu() {
+    var nav = document.querySelector('nav');
+    nav.classList.toggle('show-menu');
+}
+</script>
+<script src="login.js"></script>
+</body>
+</html>

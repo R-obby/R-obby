@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - eCO-Bags</title>
+    <link rel="stylesheet" href="customer reviews.css">
+</head>
+<body>
+
+    <header>
+        <h1>eCO-Bags</h1>
+    </header>
+
+    <nav>
+        
+        <a href="customer-reviews.html">Customer Reviews</a>
+    </nav>
+
+    <section class="main-content">
+        <h2>Customer Reviews</h2>
+
+       
+        <div class="customer-reviews">
+            <div class="review">
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <p></p>
+                <p class="author">- Robbie</p>
+            </div>
+
+            
+        </div>
+
+        
+        <h3>Submit Your Review</h3>
+        <form id="reviewForm">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+            </select>
+
+            <label for="userReview">Your Review:</label>
+            <textarea id="userReview" name="userReview" rows="4" required></textarea>
+
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy;eCO-Bags. All rights reserved.</p>
+    </footer>
+
+    
+    <script src="customer reviews.js"></script>
